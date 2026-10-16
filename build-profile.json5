@@ -1,0 +1,56 @@
+{
+  app: {
+    signingConfigs: [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "C:/Users/11363/Desktop/PulseValley/mdgg/mdgg.p12",
+          "storePassword": "000000188AD4D5E2A8B314E8D6E939A60BF2B14EA729359F57974E2E723522A96E79DD927FA82243",
+          "keyAlias": "mdgg",
+          "keyPassword": "0000001855CC2F90005A75B85CB27F2CDAC1AFBED58A8939460C220E2DF979E5A462D1855F7C0AD7",
+          "signAlg": "SHA256withECDSA",
+          "profile": "C:/Users/11363/Desktop/PulseValley/mdgg/mdgg1Debug.p7b",
+          "certpath": "C:/Users/11363/Desktop/PulseValley/mdgg/mdgg.cer"
+        }
+      }
+    ],
+    products: [
+      {
+        name: 'default',
+        signingConfig: 'default',
+        targetSdkVersion: '6.1.1(24)',
+        compatibleSdkVersion: '6.1.1(24)',
+        runtimeOS: 'HarmonyOS',
+        buildOption: {
+          strictMode: {
+            caseSensitiveCheck: true,
+            useNormalizedOHMUrl: true,
+          },
+        },
+      },
+    ],
+    buildModeSet: [
+      {
+        name: 'debug',
+      },
+      {
+        name: 'release',
+      },
+    ],
+  },
+  modules: [
+    {
+      name: 'entry',
+      srcPath: './entry',
+      targets: [
+        {
+          name: 'default',
+          applyToProducts: [
+            'default',
+          ],
+        },
+      ],
+    },
+  ],
+}

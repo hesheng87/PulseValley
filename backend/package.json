@@ -1,0 +1,13 @@
+{
+  "name": "pulsevalley-backend",
+  "version": "1.0.0",
+  "description": "脉动光谷 AGC 云端等价实现：统一响应包 + 挑战结算 + 风控校验 + 环境网关 + 排行榜 + 成就/路线/权重下发 + 社区/健身/AI/健康/校园域",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

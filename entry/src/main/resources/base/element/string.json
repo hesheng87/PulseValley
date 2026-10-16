@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "脉动光谷 - 校园运动健康社交平台"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "校园运动健康·社交·环境联动全生态平台"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "脉动光谷"
+    },
+    {
+      "name": "location_reason",
+      "value": "运动时需要获取您的位置以记录跑步轨迹与里程"
+    },
+    {
+      "name": "motion_reason",
+      "value": "需要读取运动传感器数据以统计步数与步频"
+    },
+    {
+      "name": "sync_reason",
+      "value": "需要跨设备协同权限以在手机与手表间实时同步运动数据"
+    }
+  ]
+}

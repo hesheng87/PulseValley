@@ -1,0 +1,619 @@
+{
+  "users": {
+    "weektester": {
+      "uid": "weektester",
+      "nickname": "跑者ster",
+      "phone": "",
+      "registerType": "PHONE",
+      "avatar": "🏃",
+      "totalKm": 0,
+      "totalTimes": 0,
+      "weeklyKm": 0,
+      "createdAt": 1790518371679
+    }
+  },
+  "tokens": {
+    "tk_5tx6yas7di5mujwepnj": {
+      "uid": "weektester",
+      "issuedAt": 1790518371679
+    }
+  },
+  "records": {},
+  "unlockedBadges": {},
+  "gymWorkouts": {},
+  "healthSnapshots": {},
+  "campusBindings": {},
+  "friends": {},
+  "moments": {},
+  "sharedRecords": {},
+  "postLikes": {},
+  "postForwards": {},
+  "communityUsers": [
+    {
+      "id": "u_kaikai",
+      "name": "阿凯",
+      "avatar": "🏃",
+      "bio": "环湖跑团团长 · 夜跑爱好者",
+      "level": 5,
+      "weeklyKm": 28.4
+    },
+    {
+      "id": "u_xiaoman",
+      "name": "小曼",
+      "avatar": "🧘",
+      "bio": "瑜伽+慢跑 · 操场常客",
+      "level": 4,
+      "weeklyKm": 21.7
+    },
+    {
+      "id": "u_dachuan",
+      "name": "大川",
+      "avatar": "🚴",
+      "bio": "骑行党 · 光谷绿道刷圈",
+      "level": 6,
+      "weeklyKm": 65.2
+    },
+    {
+      "id": "u_lulu",
+      "name": "露露",
+      "avatar": "🎧",
+      "bio": "配速6分30秒 · 音乐跑者",
+      "level": 3,
+      "weeklyKm": 15.9
+    },
+    {
+      "id": "u_laozhou",
+      "name": "老周",
+      "avatar": "🏃",
+      "bio": "晨跑打卡 365 天",
+      "level": 5,
+      "weeklyKm": 32.1
+    }
+  ],
+  "seedPosts": [
+    {
+      "id": "sp_1",
+      "authorId": "u_kaikai",
+      "content": "今晚环湖线风小体感佳，配速稳住了 ✌️",
+      "sportType": 0,
+      "distanceM": 5200,
+      "durationS": 1860,
+      "paceSecPerKm": 358,
+      "calorie": 323,
+      "startTs": 1790500371678,
+      "baseLikes": 23,
+      "baseForwards": 4,
+      "kind": "record",
+      "images": []
+    },
+    {
+      "id": "sp_2",
+      "authorId": "u_xiaoman",
+      "content": "晚饭后操场健走三圈，消食又放松 🌿",
+      "sportType": 1,
+      "distanceM": 3100,
+      "durationS": 2280,
+      "paceSecPerKm": 735,
+      "calorie": 130,
+      "startTs": 1790485971678,
+      "baseLikes": 12,
+      "baseForwards": 1,
+      "kind": "record",
+      "images": []
+    },
+    {
+      "id": "sp_3",
+      "authorId": "u_dachuan",
+      "content": "光谷绿道骑行打卡，18 公里到底！🚴",
+      "sportType": 2,
+      "distanceM": 18600,
+      "durationS": 2820,
+      "paceSecPerKm": 151,
+      "calorie": 446,
+      "startTs": 1790424771678,
+      "baseLikes": 31,
+      "baseForwards": 7,
+      "kind": "record",
+      "images": []
+    },
+    {
+      "id": "sp_4",
+      "authorId": "u_lulu",
+      "content": "戴着新歌单跑操场，四公里不知不觉就完成了 🎧",
+      "sportType": 0,
+      "distanceM": 4000,
+      "durationS": 1560,
+      "paceSecPerKm": 390,
+      "calorie": 249,
+      "startTs": 1790410371678,
+      "baseLikes": 8,
+      "baseForwards": 0,
+      "kind": "record",
+      "images": []
+    },
+    {
+      "id": "sp_5",
+      "authorId": "u_laozhou",
+      "content": "晨跑第 365 天，风雨无阻，一起坚持 🌅",
+      "sportType": 0,
+      "distanceM": 6800,
+      "durationS": 2400,
+      "paceSecPerKm": 353,
+      "calorie": 422,
+      "startTs": 1790341971678,
+      "baseLikes": 46,
+      "baseForwards": 9,
+      "kind": "record",
+      "images": []
+    }
+  ],
+  "gymMoves": [
+    {
+      "id": "g_bench",
+      "name": "杠铃卧推",
+      "emoji": "🏋️",
+      "muscle": "胸大肌",
+      "sets": 4,
+      "reps": 12,
+      "suggestKg": 30
+    },
+    {
+      "id": "g_squat",
+      "name": "杠铃深蹲",
+      "emoji": "🦵",
+      "muscle": "股四头肌",
+      "sets": 4,
+      "reps": 12,
+      "suggestKg": 35
+    },
+    {
+      "id": "g_deadlift",
+      "name": "硬拉",
+      "emoji": "💪",
+      "muscle": "下背/臀腿",
+      "sets": 4,
+      "reps": 10,
+      "suggestKg": 40
+    },
+    {
+      "id": "g_pullup",
+      "name": "引体向上",
+      "emoji": "🧗",
+      "muscle": "背阔肌",
+      "sets": 4,
+      "reps": 8,
+      "suggestKg": 0
+    },
+    {
+      "id": "g_curl",
+      "name": "哑铃弯举",
+      "emoji": "💪",
+      "muscle": "肱二头肌",
+      "sets": 3,
+      "reps": 14,
+      "suggestKg": 10
+    },
+    {
+      "id": "g_row",
+      "name": "划船机",
+      "emoji": "🚣",
+      "muscle": "全身有氧",
+      "sets": 3,
+      "reps": 20,
+      "suggestKg": 0
+    },
+    {
+      "id": "g_treadmill",
+      "name": "跑步机",
+      "emoji": "🏃",
+      "muscle": "心肺有氧",
+      "sets": 1,
+      "reps": 15,
+      "suggestKg": 0
+    },
+    {
+      "id": "g_crunch",
+      "name": "卷腹",
+      "emoji": "🧘",
+      "muscle": "腹直肌",
+      "sets": 4,
+      "reps": 20,
+      "suggestKg": 0
+    }
+  ],
+  "schools": [
+    "光谷大学",
+    "东湖学院",
+    "珞珈理工大学",
+    "汤逊湖师范大学",
+    "关山职业技术学院"
+  ],
+  "alumni": [
+    {
+      "id": "al_1",
+      "name": "追风少年",
+      "avatar": "🏃",
+      "school": "光谷大学",
+      "dept": "体育学院",
+      "weeklyKm": 42.6
+    },
+    {
+      "id": "al_2",
+      "name": "阿凯",
+      "avatar": "🏃",
+      "school": "光谷大学",
+      "dept": "计算机学院",
+      "weeklyKm": 28.4
+    },
+    {
+      "id": "al_3",
+      "name": "小曼",
+      "avatar": "🧘",
+      "school": "东湖学院",
+      "dept": "外语学院",
+      "weeklyKm": 21.7
+    },
+    {
+      "id": "al_4",
+      "name": "大川",
+      "avatar": "🚴",
+      "school": "珞珈理工大学",
+      "dept": "机械学院",
+      "weeklyKm": 35.2
+    },
+    {
+      "id": "al_5",
+      "name": "露露",
+      "avatar": "🎧",
+      "school": "光谷大学",
+      "dept": "新闻学院",
+      "weeklyKm": 15.9
+    },
+    {
+      "id": "al_6",
+      "name": "老周",
+      "avatar": "🏃",
+      "school": "汤逊湖师范大学",
+      "dept": "经管学院",
+      "weeklyKm": 32.1
+    },
+    {
+      "id": "al_7",
+      "name": "铁牛",
+      "avatar": "💪",
+      "school": "光谷大学",
+      "dept": "材料学院",
+      "weeklyKm": 18.8
+    },
+    {
+      "id": "al_8",
+      "name": "云朵",
+      "avatar": "🧗",
+      "school": "关山职业技术学院",
+      "dept": "设计学院",
+      "weeklyKm": 12.3
+    }
+  ],
+  "challenges": {
+    "c_lake_week": {
+      "id": "c_lake_week",
+      "title": "环湖跑团 · 周里程赛",
+      "emoji": "🏞️",
+      "typeDesc": "累计里程赛",
+      "targetKm": 30,
+      "endDate": "本周日 24:00",
+      "ownerId": "",
+      "createdAt": 1790518371678,
+      "members": [
+        {
+          "uid": "seed_akai",
+          "name": "阿凯",
+          "avatar": "🏃",
+          "progressKm": 12.5
+        },
+        {
+          "uid": "seed_xiaoman",
+          "name": "小曼",
+          "avatar": "🚺",
+          "progressKm": 9.8
+        },
+        {
+          "uid": "seed_dachuan",
+          "name": "大川",
+          "avatar": "🚴",
+          "progressKm": 6.2
+        }
+      ]
+    },
+    "c_night_trio": {
+      "id": "c_night_trio",
+      "title": "操场夜跑三人组",
+      "emoji": "🌙",
+      "typeDesc": "接力赛",
+      "targetKm": 21,
+      "endDate": "本周五 24:00",
+      "ownerId": "",
+      "createdAt": 1790518371678,
+      "members": [
+        {
+          "uid": "seed_lulu",
+          "name": "露露",
+          "avatar": "🏃",
+          "progressKm": 7.4
+        },
+        {
+          "uid": "seed_laozhou",
+          "name": "老周",
+          "avatar": "🏃",
+          "progressKm": 4.1
+        }
+      ]
+    }
+  },
+  "leaderboards": {
+    "friends": [
+      {
+        "name": "阿凯",
+        "avatar": "🏃",
+        "km": 52.3,
+        "dept": "本周里程"
+      },
+      {
+        "name": "大川",
+        "avatar": "🚴",
+        "km": 41.7,
+        "dept": "本周里程"
+      },
+      {
+        "name": "小曼",
+        "avatar": "🧘",
+        "km": 28.9,
+        "dept": "本周里程"
+      },
+      {
+        "name": "露露",
+        "avatar": "🎧",
+        "km": 22.4,
+        "dept": "本周里程"
+      },
+      {
+        "name": "老周",
+        "avatar": "🏃",
+        "km": 15.6,
+        "dept": "本周里程"
+      }
+    ],
+    "campus": [
+      {
+        "name": "追风少年",
+        "avatar": "🏃",
+        "km": 128.6,
+        "dept": "体育学院"
+      },
+      {
+        "name": "环湖跑团·阿凯",
+        "avatar": "🏃",
+        "km": 96.3,
+        "dept": "计算机学院"
+      },
+      {
+        "name": "绿道骑士·大川",
+        "avatar": "🚴",
+        "km": 88.9,
+        "dept": "机械学院"
+      },
+      {
+        "name": "晨跑365·老周",
+        "avatar": "🏃",
+        "km": 75.2,
+        "dept": "经管学院"
+      },
+      {
+        "name": "小曼",
+        "avatar": "🧘",
+        "km": 52.4,
+        "dept": "外语学院"
+      },
+      {
+        "name": "露露",
+        "avatar": "🎧",
+        "km": 41.8,
+        "dept": "新闻学院"
+      }
+    ],
+    "class": [
+      {
+        "name": "软件2301班",
+        "avatar": "💻",
+        "km": 486.2,
+        "dept": "42 人参与"
+      },
+      {
+        "name": "体教2402班",
+        "avatar": "🏅",
+        "km": 452.7,
+        "dept": "38 人参与"
+      },
+      {
+        "name": "会计2303班",
+        "avatar": "📊",
+        "km": 391.4,
+        "dept": "45 人参与"
+      },
+      {
+        "name": "机制2401班",
+        "avatar": "⚙️",
+        "km": 350.8,
+        "dept": "36 人参与"
+      },
+      {
+        "name": "英语2302班",
+        "avatar": "🗺️",
+        "km": 298.5,
+        "dept": "40 人参与"
+      }
+    ],
+    "school": [
+      {
+        "name": "湖美·画笔与风",
+        "avatar": "🎨",
+        "km": 143.2,
+        "dept": "湖北美术学院"
+      },
+      {
+        "name": "经院·晚风十里",
+        "avatar": "🍃",
+        "km": 121.6,
+        "dept": "湖北经济学院"
+      },
+      {
+        "name": "纺大·织跑者",
+        "avatar": "🧵",
+        "km": 105.9,
+        "dept": "武汉纺织大学"
+      },
+      {
+        "name": "武体·圈速之王",
+        "avatar": "⚡",
+        "km": 98.4,
+        "dept": "武汉体育学院"
+      },
+      {
+        "name": "传媒·追光少年",
+        "avatar": "📷",
+        "km": 76.8,
+        "dept": "湖北广电传媒"
+      }
+    ],
+    "team": [
+      {
+        "name": "藏龙岛闪电队",
+        "avatar": "⚡",
+        "km": 88.6,
+        "dept": "5 人 · 环湖跑团"
+      },
+      {
+        "name": "夜跑者联盟",
+        "avatar": "🌙",
+        "km": 74.3,
+        "dept": "4 人 · 操场夜跑"
+      },
+      {
+        "name": "绿道骑行社",
+        "avatar": "🚴",
+        "km": 69.8,
+        "dept": "6 人 · 绿道挑战"
+      }
+    ]
+  },
+  "routes": [
+    {
+      "id": "r_lake",
+      "name": "环湖线",
+      "desc": "东湖绿道接驳，湖风拂面，傍晚视野极佳",
+      "baseKm": 3.2,
+      "greenRate": 0.9,
+      "awayTraffic": 0.85,
+      "popularity": 92,
+      "points": "沿湖岸顺时针"
+    },
+    {
+      "id": "r_track",
+      "name": "操场环线",
+      "desc": "标准塑胶跑道 400m，适合配速训练与体测备考",
+      "baseKm": 1.6,
+      "greenRate": 0.4,
+      "awayTraffic": 1,
+      "popularity": 88,
+      "points": "外圈逆时针"
+    },
+    {
+      "id": "r_tree",
+      "name": "林荫道线",
+      "desc": "梧桐大道贯通教学区，绿植覆盖隔尘降噪",
+      "baseKm": 2.4,
+      "greenRate": 0.95,
+      "awayTraffic": 0.7,
+      "popularity": 76,
+      "points": "南门进北门出"
+    },
+    {
+      "id": "r_hill",
+      "name": "坡道挑战线",
+      "desc": "连续缓坡 3 段，强度进阶，登顶俯瞰光谷",
+      "baseKm": 4.1,
+      "greenRate": 0.7,
+      "awayTraffic": 0.6,
+      "popularity": 64,
+      "points": "环山公路"
+    }
+  ],
+  "routeWeights": {
+    "aqi": 0.3,
+    "body": 0.2,
+    "uv": 0.1,
+    "wind": 0.05,
+    "green": 0.15,
+    "away": 0.1,
+    "pref": 0.1
+  },
+  "achievementMeta": {
+    "version": 3,
+    "list": [
+      {
+        "id": "first_run",
+        "name": "首跑启程",
+        "emoji": "🚀",
+        "desc": "完成第一次运动记录"
+      },
+      {
+        "id": "night_runner",
+        "name": "夜跑侠",
+        "emoji": "🌙",
+        "desc": "20:00 后完成一次 3km+ 夜跑"
+      },
+      {
+        "id": "eco_runner",
+        "name": "清风跑者",
+        "emoji": "🍃",
+        "desc": "AQI≤50 优级空气下完成跑步"
+      },
+      {
+        "id": "km_10",
+        "name": "十里少年",
+        "emoji": "🏅",
+        "desc": "累计运动里程达 10 公里"
+      },
+      {
+        "id": "km_50",
+        "name": "越野新秀",
+        "emoji": "🎖️",
+        "desc": "累计运动里程达 50 公里"
+      },
+      {
+        "id": "km_100",
+        "name": "百公里传奇",
+        "emoji": "🏆",
+        "desc": "累计运动里程达 100 公里"
+      },
+      {
+        "id": "streak_3",
+        "name": "三日不辍",
+        "emoji": "📅",
+        "desc": "连续 3 天完成运动"
+      },
+      {
+        "id": "streak_7",
+        "name": "七日之约",
+        "emoji": "🔥",
+        "desc": "连续 7 天完成运动"
+      },
+      {
+        "id": "challenge_join",
+        "name": "组队出征",
+        "emoji": "🤝",
+        "desc": "加入一个组队挑战"
+      }
+    ]
+  }
+}

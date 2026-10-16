@@ -1,0 +1,17 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/WatchIndex",
+    "pages/RunningPage",
+    "pages/ResultPage",
+    "pages/ShareCardPage",
+    "pages/DeviceSimPage",
+    "pages/GymPage",
+    "pages/WeekPlanChatPage",
+    "pages/RouteDetailPage",
+    "pages/CreateChallengePage",
+    "pages/ChallengeDetailPage",
+    "pages/LeaderboardPage",
+    "pages/TabletIndex"
+  ]
+}
